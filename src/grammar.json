@@ -3,8 +3,20 @@
   "name": "goweb",
   "rules": {
     "source_file": {
-      "type": "STRING",
-      "value": "hello"
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "word"
+        },
+        {
+          "type": "BLANK"
+        }
+      ]
+    },
+    "word": {
+      "type": "PATTERN",
+      "value": "\\w+"
     }
   },
   "extras": [

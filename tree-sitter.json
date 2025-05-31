@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "goweb",
+      "camelcase": "Goweb",
+      "title": "goweb",
+      "scope": "source.goweb",
+      "file-types": [
+        "gw"
+      ],
+      "injection-regex": "^goweb$",
+      "class-name": "TreeSitterGoweb"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "goweb programming language",
+    "authors": [
+      {
+        "name": "Pierre Laplante",
+        "email": "laplante@plcb.ca"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/laplantePierre/goweb-treesitter.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}

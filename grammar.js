@@ -160,16 +160,16 @@ module.exports = grammar({
 
     // Lexèmes de base :
 
-    identifier: $ => /[A-Za-z_][A-Za-z_0-9]*/,          // Identifiant
-    number: $ => /\d+(\.\d+)?/,                         // Nombre entier ou décimal
-    string: $ => token(seq(                             // Chaîne de caractères
+    identifier: () => /[A-Za-z_][A-Za-z_0-9]*/,          // Identifiant
+    number: () => /\d+(\.\d+)?/,                         // Nombre entier ou décimal
+    string: () => token(seq(                             // Chaîne de caractères
       '"',
       repeat(choice(/[^"\\]/, /\\./)),                  // contenu avec support d'échappement
       '"'
     )),
-    boolean: $ => choice('true', 'false'),              // Littéral booléen
-    null: $ => 'null',                                  // Littéral null
+    boolean: () => choice('true', 'false'),              // Littéral booléen
+    null: () => 'null',                                  // Littéral null
 
-    comment: $ => token(seq('//', /.*/))                // Commentaire de fin de ligne
+    comment: () => token(seq('//', /.*/))                // Commentaire de fin de ligne
   }
 });

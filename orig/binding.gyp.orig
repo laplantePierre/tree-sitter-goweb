@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "target_name": "tree_sitter_goweb_binding",
+      "include_dirs": [
+        "<!(node -e \"require('nan')\")",   // inclusion de NAN
+        "src"
+      ],
+      "sources": [
+        "src/parser.c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tree-sitter-goweb",
+  "version": "0.1.0",
+  "description": "Tree-sitter parser for the Goweb template language",
+  "main": "grammar.js",
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test",
+    "build": "node-gyp build"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  },
+  "dependencies": {
+    "nan": "^2.14.0"
+  }
+}

@@ -7,6 +7,6 @@ final class TreeSitterGowebTests: XCTestCase {
         let parser = Parser()
         let language = Language(language: tree_sitter_goweb())
         XCTAssertNoThrow(try parser.setLanguage(language),
-                         "Error loading goweb grammar")
+                         "Error loading goweb programming language grammar")
     }
 }

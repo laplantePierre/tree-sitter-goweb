@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tree-sitter-goweb"
-description = "goweb programming language"
+description = "tree-sitter for goweb programming language"
 version = "0.1.0"
 keywords = ["incremental", "parsing", "tree-sitter", "goweb"]
 classifiers = [
@@ -19,7 +19,7 @@ license.text = "MIT"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/laplantepierre/goweb-treesitter.git"
+Homepage = "https://github.com/laplantepierre/tree-sitter-goweb.git"
 
 [project.optional-dependencies]
 core = ["tree-sitter~=0.24"]

@@ -1,8 +1,8 @@
 {
   "name": "tree-sitter-goweb",
   "version": "0.1.0",
-  "description": "goweb programming language",
-  "repository": "https://github.com/laplantepierre/goweb-treesitter.git",
+  "description": "tree-sitter for goweb programming language",
+  "repository": "https://github.com/laplantepierre/tree-sitter-goweb.git",
   "license": "MIT",
   "author": {
     "name": "Pierre Laplante",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "prebuildify": "^6.0.1",
-    "tree-sitter-cli": "^0.25.3"
+    "tree-sitter-cli": "^0.25.5"
   },
   "peerDependencies": {
     "tree-sitter": "^0.21.1"

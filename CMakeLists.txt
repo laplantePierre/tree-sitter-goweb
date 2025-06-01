@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.13)
 
 project(tree-sitter-goweb
         VERSION "0.1.0"
-        DESCRIPTION "goweb programming language"
-        HOMEPAGE_URL "https://github.com/laplantepierre/goweb-treesitter.git"
+        DESCRIPTION "tree-sitter for goweb programming language"
+        HOMEPAGE_URL "https://github.com/laplantepierre/tree-sitter-goweb.git"
         LANGUAGES C)
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)

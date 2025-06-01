@@ -9,4 +9,4 @@ class TestLanguage(TestCase):
         try:
             tree_sitter.Language(tree_sitter_goweb.language())
         except Exception:
-            self.fail("Error loading goweb grammar")
+            self.fail("Error loading goweb programming language grammar")

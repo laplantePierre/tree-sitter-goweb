@@ -1,4 +1,4 @@
-"""goweb programming language"""
+"""tree-sitter for goweb programming language"""
 
 from importlib.resources import files as _files
 

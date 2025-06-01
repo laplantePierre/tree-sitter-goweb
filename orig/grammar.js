@@ -4,10 +4,6 @@
 module.exports = grammar({
   name: 'goweb',
 
-  conflicts: $ => [
-    [$.function_call, $._expression],
-  ],
-
   // Whitespace (spaces, tabs, newlines) and comments to skip in parsing:
   extras: $ => [
     /\s+/,        // espaces et sauts de ligne

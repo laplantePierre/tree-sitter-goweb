@@ -1,13 +1,13 @@
 [package]
 name = "tree-sitter-goweb"
-description = "goweb programming language"
+description = "tree-sitter for goweb programming language"
 version = "0.1.0"
 authors = ["Pierre Laplante <laplante@plcb.ca>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["incremental", "parsing", "tree-sitter", "goweb"]
 categories = ["parser-implementations", "parsing", "text-editors"]
-repository = "https://github.com/laplantepierre/goweb-treesitter.git"
+repository = "https://github.com/laplantepierre/tree-sitter-goweb.git"
 edition = "2021"
 autoexamples = false
 
@@ -31,4 +31,4 @@ tree-sitter-language = "0.1"
 cc = "1.2"
 
 [dev-dependencies]
-tree-sitter = "0.25.3"
+tree-sitter = "0.25.5"

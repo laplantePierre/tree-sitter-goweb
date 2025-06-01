@@ -4,7 +4,7 @@
     {
       "name": "goweb",
       "camelcase": "Goweb",
-      "title": "goweb",
+      "title": "goweb programming language",
       "scope": "source.goweb",
       "file-types": [
         "gw"
@@ -16,7 +16,7 @@
   "metadata": {
     "version": "0.1.0",
     "license": "MIT",
-    "description": "goweb programming language",
+    "description": "tree-sitter for goweb programming language",
     "authors": [
       {
         "name": "Pierre Laplante",
@@ -24,7 +24,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/laplantePierre/goweb-treesitter.git"
+      "repository": "https://github.com/laplantePierre/tree-sitter-goweb.git"
     }
   },
   "bindings": {

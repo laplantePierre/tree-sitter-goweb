@@ -1,4 +1,4 @@
-module github.com/laplantepierre/goweb-treesitter.git
+module github.com/laplantepierre/tree-sitter-goweb.git
 
 go 1.22
 
